@@ -5,11 +5,8 @@ import (
 )
 
 func main() {
-	employees := make(map[string]string)
 
-	employees["Josn"] = "Software Developer"
-	employees["James"] = "Fisher"
-	employees["Ariana"] = "Management Consultant"
+	something := make([]any, 0)
 
-	fmt.Println(employees)
+	fmt.Println(something)
 }
